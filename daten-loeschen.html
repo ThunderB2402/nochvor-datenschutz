@@ -1,42 +1,100 @@
 <!doctype html>
 <html lang="de">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="index,follow">
-<title>Daten löschen und Löschanfrage stellen – NochVor</title>
-<style>:root{color-scheme:light;font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif}*{box-sizing:border-box}body{margin:0;background:#f1f5f9;color:#26344c;line-height:1.67}main{max-width:820px;margin:40px auto;padding:42px 52px;background:#fff;border:1px solid #dce5f0;border-radius:20px;box-shadow:0 16px 40px #2334510b}h1{line-height:1.2;font-size:2.1rem;letter-spacing:-.035em;margin:8px 0}h2{font-size:1.2rem;margin:29px 0 9px;color:#192b4d}a{color:#2456a6}p{margin:9px 0 13px}ol,ul{padding-left:24px}.overline{font-size:.8rem;letter-spacing:.15em;font-weight:800;color:#5268a2;text-transform:uppercase}.meta{color:#67748b;font-size:.87rem}.action{display:inline-block;background:#2456a6;color:#fff;padding:12px 18px;border-radius:9px;text-decoration:none;font-weight:700}.note{background:#f1f5ff;border:1px solid #d7e2ff;padding:12px 16px;border-radius:12px}hr{border:0;border-top:1px solid #dce5f0;margin:26px 0 16px}@media(max-width:720px){main{margin:0;border:0;border-radius:0;padding:28px 22px;box-shadow:none}h1{font-size:1.75rem}}</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Daten in NochVor selbst löschen oder eine Löschanfrage an ThunderB stellen. Hinweise zu App-Reset, exportierten Backups und Google-Play-Premium.">
+  <title>Daten löschen und Löschanfrage · NochVor</title>
+  <style>
+:root { color-scheme: light; --ink:#202a48; --muted:#63708b; --accent:#594fe1; --line:#e4e7f0; --paper:#ffffff; --bg:#f5f6fb; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .wrap { max-width:880px; margin:0 auto; padding:32px 18px 64px; }
+    header { padding:6px 2px 24px; }
+    .brand { color:var(--accent); letter-spacing:.11em; font-size:.83rem; font-weight:800; text-transform:uppercase; }
+    h1 { font-size:clamp(2rem,5vw,2.75rem); letter-spacing:-.035em; line-height:1.18; margin:14px 0 12px; }
+    .meta { color:var(--muted); margin:0; font-size:.92rem; }
+    main { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(22px,4.5vw,44px); box-shadow:0 12px 38px rgba(31,35,82,.05); }
+    h2 { font-size:1.18rem; line-height:1.35; margin:2rem 0 .6rem; }
+    h2:first-of-type { margin-top:1.2rem; }
+    p { margin:.55rem 0 1rem; }
+    ul { padding-left:1.35rem; margin:.55rem 0 1rem; }
+    li { margin:.35rem 0; }
+    a { color:#4338c1; text-underline-offset:3px; overflow-wrap:anywhere; }
+    a:focus-visible { outline:3px solid #ada5ff; border-radius:3px; }
+    .lead { font-size:1.075rem; color:#47536d; }
+    .note { padding:14px 17px; border-left:4px solid #7b72ec; background:#f4f2ff; border-radius:9px; }
+    .contact { font-style:normal; }
+    footer { padding:22px 4px 0; color:var(--muted); font-size:.88rem; }
+    footer a { margin-right:15px; }
+    @media print { body { background:#fff; } .wrap { max-width:none; padding:0; } main { border:0; box-shadow:none; padding:0; } a { color:inherit; } h2 { break-after:avoid; } }
+    ol { padding-left:1.35rem; margin:.55rem 0 1rem; }
+    .action { display:inline-block; padding:12px 18px; border-radius:12px; background:#594fe1; color:#fff; font-weight:700; text-decoration:none; }
+    .action:hover,.action:focus-visible { background:#493ec8; color:#fff; }
+  </style>
 </head>
-<body><main>
-<p class="overline">NochVor · ThunderB</p>
-<h1>Daten löschen und Löschanfrage stellen</h1>
-<p class="meta">Stand: 27. Oktober 2026 · Android-App NochVor</p>
-<p>Hier erfährst du, wie du deine persönlichen Daten in der App <strong>NochVor</strong> löschen kannst und wie du den Entwickler <strong>ThunderB</strong> um Unterstützung oder um Löschung eventuell bei ihm vorhandener Daten bitten kannst.</p>
-<h2>1. Löschanfrage an den Entwickler stellen</h2>
-<p>Schreibe eine E-Mail an <a href="mailto:nochvor.support@gmail.com">nochvor.support@gmail.com</a> mit dem Betreff <strong>„NochVor – Anfrage zur Datenlöschung“</strong>. Teile uns mit, welche Daten du löschen lassen möchtest oder wobei du Unterstützung benötigst. Sende bitte keine Passwörter, privaten Fotos oder vollständigen App-Backups mit.</p>
-<p><a class="action" href="mailto:nochvor.support@gmail.com?subject=NochVor%20%E2%80%93%20Anfrage%20zur%20Datenl%C3%B6schung">Löschanfrage per E-Mail stellen</a></p>
-<p>Du kannst uns auch kontaktieren, wenn du die App bereits deinstalliert hast. Wir prüfen deine Anfrage und löschen gegebenenfalls bei uns vorhandene personenbezogene Daten im Rahmen der gesetzlichen Vorgaben. Wenn die gewünschten Daten nur lokal auf deinem Gerät liegen, erklären wir dir, wie du sie selbst entfernen kannst.</p>
-<h2>2. App-Daten auf dem Gerät selbst löschen</h2>
-<ol>
-<li>Öffne <strong>NochVor</strong>.</li>
-<li>Wechsle zum Bereich <strong>Mehr</strong> und wähle <strong>App zurücksetzen</strong>.</li>
-<li>Lies die Hinweise zur Datensicherung und bestätige das vollständige Zurücksetzen.</li>
-</ol>
-<p>Dadurch werden die von der App verwalteten lokalen Inhalte und Einstellungen zurückgesetzt. Dieser Vorgang kann nicht rückgängig gemacht werden. Alternativ kannst du über die Android-Systemeinstellungen die App-Daten löschen.</p>
-<p class="note"><strong>Wichtig:</strong> NochVor bietet derzeit kein eigenes Benutzerkonto und keine automatische Synchronisierung persönlicher Inhalte mit einer ThunderB-Cloud. Der Entwickler hat keinen Fernzugriff auf die auf deinem Gerät gespeicherten persönlichen Einträge.</p>
-<h2>3. Welche Daten werden gelöscht?</h2>
-<p>Beim vollständigen App-Reset werden nach dem derzeitigen Funktionsstand die lokal von NochVor verwalteten Daten entfernt. Dazu gehören insbesondere Wünsche, Ziele, Listen, Buch-, Film- und Ortseinträge, Notizen, Bewertungen, Erinnerungen, zugehörige appinterne Bilder sowie lokale Einstellungen.</p>
-<h2>4. Was bleibt gegebenenfalls erhalten?</h2>
-<ul>
-<li><strong>Manuell exportierte ZIP-Backups und geteilte Dateien:</strong> Wenn sie außerhalb der App gespeichert wurden, musst du sie am jeweiligen Speicherort selbst löschen, zum Beispiel in Downloads oder in einem Cloud-Speicher.</li>
-<li><strong>Von anderen Apps gespeicherte Kopien:</strong> Über Android geteilte Inhalte oder zuvor anderweitig gespeicherte Fotos werden durch das Zurücksetzen von NochVor nicht automatisch bei anderen Empfängern gelöscht.</li>
-<li><strong>Verbindungs- und Suchdaten bei Drittanbietern:</strong> Bei optionalen Anfragen an Open Library, Photon/OpenStreetMap, Wikipedia, Wikidata oder Wikimedia können technische Daten und Suchangaben beim jeweiligen Anbieter verarbeitet worden sein. Dortige Löschungen richten sich nach den Datenschutzregelungen des betreffenden Anbieters.</li>
-<li><strong>Kontakt-E-Mails:</strong> Wenn du uns schreibst, kann die Anfrage soweit erforderlich zur Bearbeitung und zum Nachweis gesetzlicher Pflichten aufbewahrt werden. Wir löschen solche Daten, sobald der jeweilige Zweck und erforderliche Aufbewahrungsgründe entfallen.</li>
-</ul>
-<h2>5. Kontakt und weitere Informationen</h2>
-<p>Verantwortlich: <strong>Björn Börner (ThunderB)</strong><br>
-E-Mail: <a href="mailto:nochvor.support@gmail.com">nochvor.support@gmail.com</a></p>
-<p>Weitere Details findest du in unserer <a href="./">Datenschutzerklärung</a> und im <a href="./impressum.html">Impressum</a>.</p>
-<hr>
-<p class="meta">NochVor · Löschung lokal gespeicherter App-Daten und Löschanfragen</p>
-</main></body></html>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">✦ NochVor · ThunderB</div>
+    <h1>Daten löschen und Löschanfrage stellen</h1>
+    <p class="meta">Stand: 21. November 2026 · Android-App NochVor</p>
+  </header>
+  <main>
+    <p class="lead">Hier erfährst du, wie du deine persönlichen NochVor-Daten selbst vom Gerät entfernst und wie du uns um Hilfe oder die Löschung gegebenenfalls bei uns vorhandener Daten bitten kannst.</p>
+
+    <h2>1. Welche Daten speichert NochVor?</h2>
+    <p>NochVor speichert deine persönlich angelegten Inhalte grundsätzlich lokal auf deinem Gerät. Dazu gehören insbesondere Wünsche, Ziele, Buch-, Film- und Ortseinträge, Erlebnisse, Notizen, Fotos und Erinnerungen sowie Einstellungen und der lokal gespeicherte Premium-Berechtigungsstatus. Die App benötigt kein eigenes NochVor-Benutzerkonto und synchronisiert deine persönliche Lebensliste nicht automatisch mit einer ThunderB-Cloud.</p>
+    <p>ThunderB kann auf diese rein lokal gespeicherten App-Inhalte nicht aus der Ferne zugreifen oder sie für dich direkt auf deinem Gerät löschen.</p>
+
+    <h2>2. Daten direkt in der App löschen</h2>
+    <ol>
+      <li>Öffne <strong>NochVor</strong> auf deinem Android-Gerät.</li>
+      <li>Öffne <strong>Mehr</strong> und wähle <strong>App zurücksetzen</strong>.</li>
+      <li>Lies die Hinweise und bestätige den vollständigen Reset nur, wenn du die lokalen Daten tatsächlich entfernen möchtest.</li>
+    </ol>
+    <p>Dadurch werden die von der App verwalteten lokalen Inhalte und Einstellungen zurückgesetzt. <strong>Dieser Vorgang ist ohne zuvor erstelltes Backup nicht rückgängig zu machen.</strong></p>
+    <p>Alternativ kannst du über die Android-Einstellungen unter <strong>Apps → NochVor → Speicher → Speicherinhalt löschen</strong> die lokalen App-Daten entfernen. Die Bezeichnungen können je nach Android-Version abweichen. Auch eine Deinstallation kann lokale App-Daten entfernen.</p>
+
+    <h2>3. Löschanfrage an ThunderB stellen</h2>
+    <p>Schreibe an <a href="mailto:nochvor.support@gmail.com">nochvor.support@gmail.com</a> mit dem Betreff <strong>„NochVor – Anfrage zur Datenlöschung“</strong>. Teile mit, welche Daten du gelöscht haben möchtest oder wobei du Unterstützung benötigst. Sende bitte keine Passwörter, privaten Fotos, vollständigen Backups oder Kauf-Tokens.</p>
+    <p><a class="action" href="mailto:nochvor.support@gmail.com?subject=NochVor%20%E2%80%93%20Anfrage%20zur%20Datenl%C3%B6schung">Löschanfrage per E-Mail stellen</a></p>
+    <p>Eine Anfrage ist auch möglich, wenn NochVor bereits deinstalliert wurde. Wir prüfen, ob und welche personenbezogenen Daten zu deiner Anfrage bei uns vorliegen, und bearbeiten Löschanfragen im Rahmen der geltenden gesetzlichen Vorschriften. Liegen die gewünschten Daten nur auf deinem Gerät, erläutern wir dir, wie du diese selbst entfernen kannst.</p>
+
+    <h2>4. Was wird nicht automatisch mitgelöscht?</h2>
+    <ul>
+      <li><strong>Exporte und ZIP-Backups:</strong> Manuell gesicherte Dateien außerhalb des App-Speichers – zum Beispiel in Downloads, auf einem PC oder in deinem Cloudspeicher – musst du dort selbst löschen. Manuelle ZIP-Backups sind nach dem dokumentierten Funktionsstand nicht verschlüsselt.</li>
+      <li><strong>Geteilte Daten und fremde Fotos:</strong> Bereits über andere Apps versendete Kopien sowie Originalfotos außerhalb des NochVor-App-Speichers werden nicht automatisch entfernt.</li>
+      <li><strong>Online-Anfragen:</strong> Bei optionalen Aufrufen externer Dienste wie Open Library, Google Books, Photon, OpenStreetMap/Nominatim, Wikidata, Wikipedia, Wikimedia Commons oder TMDB sowie beim Laden externer Kartenkomponenten über unpkg können technisch erforderliche Verbindungsdaten oder Suchangaben verarbeitet worden sein. Für deren Löschung gelten die jeweiligen Datenschutzregelungen der Anbieter.</li>
+      <li><strong>E-Mail-Korrespondenz:</strong> Wenn du uns kontaktierst, können die für die Bearbeitung erforderlichen Angaben vorübergehend aufbewahrt werden; gesetzliche Aufbewahrungspflichten können im Einzelfall eine längere Speicherung erfordern.</li>
+    </ul>
+
+    <h2>5. Wichtig: Ein Premium-Kauf wird dadurch nicht gelöscht</h2>
+    <p>Eine App-Zurücksetzung, das Löschen lokaler Daten oder die Deinstallation beendet <strong>keinen gültigen Google-Play-Premium-Kauf</strong>. Die Kaufberechtigung wird von Google Play verwaltet und kann bei einer Neuinstallation mit dem entsprechenden Google-Play-Konto wieder erkannt werden. Auch der lokal gespeicherte Premium-Status kann nach einer erfolgreichen Kaufprüfung erneut hergestellt werden.</p>
+    <p>Bestellhistorie, Zahlungsinformationen und gegebenenfalls gesetzlich erforderliche Transaktionsnachweise werden durch den App-Reset nicht bei Google gelöscht. Fragen zu einer Erstattung oder zum Google-Play-Konto kannst du über <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener noreferrer">Google Play</a> klären. Bei einer bestätigten Erstattung mit Widerruf kann die Premium-Berechtigung entfallen.</p>
+
+    <h2>6. Speicherdauer und Datenschutzrechte</h2>
+    <p>Die persönlichen Einträge bleiben normalerweise lokal gespeichert, bis du sie selbst löschst oder die App-Daten entfernst. Daten bei Drittanbietern oder außerhalb des App-Speichers können davon unabhängig weiterbestehen. Kontaktanfragen bewahren wir nur so lange auf, wie dies für die Bearbeitung und gegebenenfalls zur Erfüllung gesetzlicher Pflichten erforderlich ist.</p>
+    <p>Im Rahmen der gesetzlichen Voraussetzungen kannst du Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit oder Widerspruch verlangen. Wende dich dafür an <a href="mailto:nochvor.support@gmail.com">nochvor.support@gmail.com</a>.</p>
+
+    <h2>7. Verantwortliche Person und weitere Informationen</h2>
+    <address class="contact">
+      <strong>NochVor · ThunderB</strong><br>
+      Verantwortliche Person: Björn Börner<br>
+      E-Mail: <a href="mailto:nochvor.support@gmail.com">nochvor.support@gmail.com</a>
+    </address>
+    <p>Ausführlichere Informationen findest du in unserer <a href="./">Datenschutzerklärung</a> und im <a href="impressum.html">Impressum</a>.</p>
+    <p class="note"><strong>Kurz zusammengefasst:</strong> Deine persönliche Lebensliste wird grundsätzlich lokal gespeichert. Du kannst sie in der App zurücksetzen oder in Android löschen. Bereits erstellte Exporte, Daten bei externen Anbietern und ein gültiger Google-Play-Premium-Kauf werden dadurch nicht automatisch entfernt.</p>
+  </main>
+  <footer>
+    <a href="./">Datenschutzerklärung</a>
+    <a href="impressum.html">Impressum</a>
+    <a href="mailto:nochvor.support@gmail.com">Kontakt</a>
+    <p>© 2026 ThunderB · NochVor</p>
+  </footer>
+</div>
+</body>
+</html>
